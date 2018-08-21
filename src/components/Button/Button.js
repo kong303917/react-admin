@@ -24,7 +24,7 @@ export default class extends React.Component {
     render() {
         const { tooltip, prefixCls, ...otherProps } = this.props;
         return tooltip ? (
-            <Tooltip overlayClassName={prefixCls} title={tooltip === true ? oterProps.title : tooltip}>
+            <Tooltip overlayClassName={prefixCls} title={tooltip === true ? otherProps.title : tooltip}>
                 <Button {...otherProps} />
             </Tooltip>
         ) : (

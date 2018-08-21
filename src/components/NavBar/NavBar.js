@@ -112,7 +112,7 @@ class NavBar extends Component {
         </form>
         <ul className="nav navbar-nav navbar-right clearfix">
           <li>
-            <a href="https://github.com/LANIF-UI/dva-boot-admin">
+            <a href="https://github.com/kong303917/react-admin">
               <Icon type="github" antd />
             </a>
           </li>
